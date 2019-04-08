@@ -4,6 +4,7 @@ package kv;
 
 service Mykv{
     rpc Say(Order) returns (Data){}
+    // no use below 4 fun
     rpc Set(Datakey) returns (Resu){}
     rpc Get(Datakey) returns (Resu){}
     rpc Del(Datakey) returns (Resu){}

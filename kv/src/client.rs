@@ -7,7 +7,7 @@ use std::io;
 
 use grpcio::{ChannelBuilder, EnvBuilder};
 
-use protos::mykv::{Order,Datakey};
+use protos::mykv::{Order};
 use protos::mykv_grpc::MykvClient;
 
 fn main() {

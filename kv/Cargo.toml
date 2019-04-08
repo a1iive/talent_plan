@@ -16,10 +16,15 @@ path = "src/server.rs"
 name = "client"
 path = "src/client.rs"
 
+[[bin]]
+name = "client_muti"
+path = "src/client_muti.rs"
+
 [dependencies]
-futures = "0.1.16"
-grpcio = "0.4.3"
+futures = "0.1"
+grpcio = "0.4"
 protobuf = "~2"
+rand = "0.5"
 
 [build-dependencies]
 protoc-grpcio = "1.0.1"
